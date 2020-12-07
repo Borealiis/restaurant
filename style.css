@@ -6,7 +6,6 @@ main {
 h1 {
     font-family: 'Single Day', cursive;
     letter-spacing: 0.8em;
-    font-size: 64px;
 }
 
 h2 {
@@ -16,16 +15,38 @@ h2 {
 
 p {
     font-family: 'Single Day', cursive;
+    margin-bottom: 100px;
 }
-table{
-   margin: auto;
-}
+
 .borderColor{
     display: flex;
     border: 1px solid #AB3717;
     justify-content: center;   
 }
-
+table {
+    margin: auto;
+}
 td{
     font-size: x-large;  
+}
+
+.navbar a {
+    font-family: 'Single Day', cursive;
+}
+
+.iconesMenu {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        letter-spacing: 0.4em;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
