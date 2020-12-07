@@ -1,0 +1,31 @@
+main {
+    background-image: url('https://sortiesparisiennes.fr/wp-content/uploads/2017/09/culture-asiatique.jpg');
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Single Day', cursive;
+    letter-spacing: 0.8em;
+    /* font-size: 64px; */
+}
+
+h2 {
+    font-family: 'Single Day', cursive;
+    letter-spacing: 0.5em;
+}
+
+p {
+    font-family: 'Single Day', cursive;
+}
+
+.borderColor{
+    display: flex;
+    border: 1px solid #AB3717;
+    justify-content: center;   
+}
+table {
+    margin: auto;
+}
+td{
+    font-size: x-large;  
+}
