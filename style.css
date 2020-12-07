@@ -15,7 +15,7 @@ h2 {
 
 p {
     font-family: 'Single Day', cursive;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .borderColor{
@@ -24,13 +24,13 @@ p {
     justify-content: center;   
 }
 table {
-    margin: auto;
+    margin: 100px auto 0 auto;
 }
 td{
     font-size: x-large;  
 }
 th, td {
-    padding: 3px;
+    padding: 5px 10px;
 }
 
 .navbar a {
