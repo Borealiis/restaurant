@@ -1,0 +1,9 @@
+.column {
+    border: 1px solid black;
+}
+
+.columns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
