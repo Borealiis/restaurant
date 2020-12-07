@@ -6,7 +6,6 @@ main {
 h1 {
     font-family: 'Single Day', cursive;
     letter-spacing: 0.8em;
-    /* font-size: 64px; */
 }
 
 h2 {
@@ -29,6 +28,9 @@ table {
 }
 td{
     font-size: x-large;  
+}
+th, td {
+    padding: 3px;
 }
 
 .navbar a {
