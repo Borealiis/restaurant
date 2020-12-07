@@ -46,4 +46,3 @@ Deep-fried rolls wuth shredded pork, shrimp, mushrooms and cabbage.
 ## Desserts
 ### Pineapple Bun - 1€/pc
 Crispy and sweet pineapple pastry from Hong Kong.
-
