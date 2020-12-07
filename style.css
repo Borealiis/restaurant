@@ -1,9 +1,12 @@
 body{
     background-image: url(./art-asiatique-musee-de-san-francisco.jpg);
+    font-family: 'Oregano', cursive;
+font-size: larger;
 }
 
 .column {
     border: 1px solid black;
+    /* margin-top: 10px; */
 }
 
 .columns {
@@ -13,12 +16,18 @@ body{
     /* opacity: .9;   */
 }
 
+.card{
+    margin: 5px;
+}
+
 .col-menu {
     position: fixed;
     left: 80px;
     top: 30%;
     text-align: center;
     background-color: white;
+    font-size: larger;
+
 }
 
 h2 {
