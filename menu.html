@@ -4,16 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oregano&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+
     <title>Document</title>
 </head>
 
 <body>
 
     <div class="container">
-        <div class="columns is-vcentered">
-            <div class="column is-3">
+
+        <div class="columns">
+            <div class="column is-1.5 col-menu is-narrow">
 
                 <aside class="menu">
                     <p class="menu-label">Menu</p>
@@ -23,16 +29,27 @@
                         <li><a href="#entrees">Entrées</a></li>
                         <li><a href="#main">Main Dishes</a></li>
                         <li><a href="#drinks">Drinks</a></li>
-                        <li><a href="#snacks">Desserts</a></li>
+                        <li><a href="#dessert">Desserts</a></li>
                     </ul>
                 </aside>
             </div>
             <div class="column is-8">
-                <h2 id="lunch">Lunch Menu</h2>
-                <h3>Available from 3–10pm | Call (587) 525-8589 to place your takeout order. Not all menu items are
-                    available for takeout.
-                </h3>
-                <div class="card">
+
+                <div class="section-title">
+                    <h2 id="lunch">Lunch Menu</h2>
+                    <h3>Available from 3–10pm | Call (587) 525-8589 to place your takeout order. Not all menu items are
+                        available for takeout.
+
+                    </h3>
+                </div>
+
+                <div class="container">
+
+                    <div class="columns">
+                        <div class="column">
+
+
+                            <div class="card">
                     <div class="card-image">
                         <figure class="image is-5by4">
                             <img src="./assets/menu/cashew-chickenNoodles.png" alt="Cashew Chicken noodles">
@@ -49,7 +66,11 @@
                     </div>
                 </div>
 
-                <div class="card">
+                        </div>
+                        <div class="column">
+
+
+                            <div class="card">
                     <div class="card-image">
                         <figure class="image is-5by4">
                             <img src="./assets/menu/soy-sauce-chicken-cn.jpg" alt="Soy sauce chicken">
@@ -66,9 +87,23 @@
                     </div>
                 </div>
 
-                <h2 id="popular">Most Popular</h2>
+                        </div>
+                    </div>
 
-                <div class="card">
+                </div>
+
+
+
+                <div class="section-title">
+                    <h2 id="popular">Most Popular</h2>
+                </div>
+                <div class="container">
+
+                    <div class="columns">
+                        <div class="column">
+
+
+                            <div class="card">
                     <div class="card-image">
                         <figure class="image is-5by4">
                             <img src="./assets/menu/chicken-yakisoba.jpg" alt="Chicken Yakisoba Noodle Bowl">
@@ -84,7 +119,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="card">
+
+                        </div>
+                        <div class="column">
+
+
+                            <div class="card">
                     <div class="card-image">
                         <figure class="image is-5by4">
                             <img src="./assets/menu/tsukemen-noodle.jpg" alt="Tsukemen">
@@ -101,9 +141,20 @@
                     </div>
                 </div>
 
-                <h2 id="entrees">Starters</h2>
+                        </div>
+                    </div>
 
-                <div class="card">
+                </div>
+                <div class="section-title">
+                    <h2 id="entrees">Entrées</h2>
+                </div>
+                <div class="container">
+
+                    <div class="columns">
+                        <div class="column">
+
+
+                            <div class="card">
                     <div class="card-image">
                         <figure class="image is-5by4">
                             <img src="./assets/menu/TomatoEggDropSoup.jpg" alt="Egg drop soup with tomato">
@@ -120,7 +171,11 @@
                     </div>
                 </div>
 
-                <div class="card">
+                        </div>
+                        <div class="column">
+
+
+                            <div class="card">
                     <div class="card-image">
                         <figure class="image is-5by4">
                             <img src="./assets/menu/Pan-fried-vegetarian-dumplings.jpg" alt="Pan-fried vegetarian dumplings">
@@ -137,26 +192,20 @@
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image is-5by4">
-                            <img src="./assets/menu/spring-rolls.jpg" alt="Spring Rolls">
-                        </figure>
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <p class="title is-4">Spring Rolls</p>
-                                <p class="subtitle is-6">1€/pc</p>
-                                <p class="subtitle is-12"> Deep-fried rolls wuth shredded pork, shrimp, mushrooms and cabbage.</p>
-                            </div>
                         </div>
                     </div>
+
                 </div>
 
-                <h2 id="main">Main Dishes</h2>
+                <div class="section-title">
+                    <h2 id="main">Main Dishes</h2>
+                </div>
+                <div class="container">
 
-                <div class="card">
+                    <div class="columns">
+                        <div class="column">
+
+                            <div class="card">
                     <div class="card-image">
                         <figure class="image is-5by4">
                             <img src="./assets/menu/Shrimp-yakisoba.jpg" alt="Shrimp Yakisoba">
@@ -173,7 +222,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                            <div class="card">
                     <div class="card-image">
                         <figure class="image is-5by4">
                             <img src="./assets/menu/miso-katsu-ramen.jpg" alt="Miso Katsu Ramen">
@@ -190,7 +239,10 @@
                     </div>
                 </div>
 
-                <div class="card">
+                        </div>
+                        <div class="column">
+
+<div class="card">
                     <div class="card-image">
                         <figure class="image is-5by4">
                             <img src="./assets/menu/japanese_beef_yakisoba.jpeg" alt="Beef Yakisoba">
@@ -206,10 +258,41 @@
                         </div>
                     </div>
                 </div>
+                            
+                            <div class="card">
 
-                <h2 id="drinks">Drinks</h2>
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image">
+                                                <img src="https://bulma.io/images/placeholders/96x96.png"
+                                                    alt="Placeholder image">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-4">John Smith</p>
+                                            <p class="subtitle is-6">@johnsmith</p>
+                                            <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit.
+                                                Phasellus nec iaculis mauris.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                <div class="card">
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="section-title">
+                    <h2 id="drinks">Drinks</h2>
+                </div>
+                <div class="container">
+
+                    <div class="columns">
+                        <div class="column">
+                            <div class="card">
                     <div class="card-image">
                         <figure class="image is-5by4">
                             <img src="./assets/menu/cold-brewed-green-tea.jpg" alt="Cold Brewed Green Tea">
@@ -226,8 +309,88 @@
                     </div>
                 </div>
 
-                <h2 id="snacks">Desserts</h2>
-                <div class="card">
+                            <div class="card">
+
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image">
+                                                <img src="https://bulma.io/images/placeholders/96x96.png"
+                                                    alt="Placeholder image">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-4">John Smith</p>
+                                            <p class="subtitle is-6">@johnsmith</p>
+                                            <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit.
+                                                Phasellus nec iaculis mauris.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="column">
+                            <div class="card">
+
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image">
+                                                <img src="https://bulma.io/images/placeholders/96x96.png"
+                                                    alt="Placeholder image">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-4">John Smith</p>
+                                            <p class="subtitle is-6">@johnsmith</p>
+                                            <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit.
+                                                Phasellus nec iaculis mauris.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+
+                                <div class="card-content">
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <figure class="image">
+                                                <img src="https://bulma.io/images/placeholders/96x96.png"
+                                                    alt="Placeholder image">
+                                            </figure>
+                                        </div>
+                                        <div class="media-content">
+                                            <p class="title is-4">John Smith</p>
+                                            <p class="subtitle is-6">@johnsmith</p>
+                                            <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur
+                                                adipiscing elit.
+                                                Phasellus nec iaculis mauris.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="section-title">
+                    <h2 id="dessert">Desserts</h2>
+                </div>
+                <div class="container">
+
+                    <div class="columns">
+                        <div class="column">
+
+
+                            <div class="card">
                     <div class="card-image">
                         <figure class="image is-5by4">
                             <img src="./assets/menu/pineapple-buns.jpg" alt="Pineapple Bun">
@@ -243,8 +406,9 @@
                         </div>
                     </div>
                 </div>
+                        </div>
 
-                <div class="card">
+                        <div class="card">
                     <div class="card-image">
                         <figure class="image is-5by4">
                             <img src="assets/menu/tricolor-dango.jpg" alt="Tricolor Dango">
@@ -260,11 +424,9 @@
                         </div>
                     </div>
                 </div>
+                    </div>
 
-            </div>
-        </div>
-
-    </div>
+                    </div>
 
 </body>
 
