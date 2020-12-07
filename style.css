@@ -17,7 +17,9 @@ h2 {
 p {
     font-family: 'Single Day', cursive;
 }
-
+table{
+   margin: auto;
+}
 .borderColor{
     display: flex;
     border: 1px solid #AB3717;
