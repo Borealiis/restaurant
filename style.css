@@ -16,6 +16,7 @@ h2 {
 
 p {
     font-family: 'Single Day', cursive;
+    margin-bottom: 100px;
 }
 
 .borderColor{
@@ -28,4 +29,25 @@ table {
 }
 td{
     font-size: x-large;  
+}
+
+.navbar a {
+    font-family: 'Single Day', cursive;
+}
+
+.iconesMenu {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 450px) {
+    h1 {
+        letter-spacing: 0.4em;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
