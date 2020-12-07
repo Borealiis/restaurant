@@ -38,3 +38,12 @@ miso noodles, pork broth, breaded pork, hard-boiled egg, scallions, narutomaki.
 ## 7- See Yao Gai (soy sauce chicken) - 9€
 
 Soy sauce chicken with rice, ginger, scallions, and lightly seasoned vegetables.
+
+
+### Spring Rolls - 1€/pc
+
+Deep-fried rolls wuth shredded pork, shrimp, mushrooms and cabbage.
+## Desserts
+### Pineapple Bun - 1€/pc
+Crispy and sweet pineapple pastry from Hong Kong.
+
