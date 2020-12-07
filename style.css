@@ -29,6 +29,9 @@ table {
 td{
     font-size: x-large;  
 }
+th, td {
+    padding: 3px;
+}
 
 .navbar a {
     font-family: 'Single Day', cursive;
