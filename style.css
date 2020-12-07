@@ -20,7 +20,7 @@ p {
 
 .borderColor{
     display: flex;
-    border: 1px solid #AB3717;
+    border: 1px solid /* #AB3717 */white;
     justify-content: center;   
 }
 table {
