@@ -17,3 +17,13 @@ h2 {
 p {
     font-family: 'Single Day', cursive;
 }
+
+.borderColor{
+    display: flex;
+    border: 1px solid #AB3717;
+    justify-content: center;   
+}
+
+td{
+    font-size: x-large;  
+}
