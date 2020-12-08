@@ -7,19 +7,21 @@ font-size: larger;
 .column {
     border: 1px solid black;
     /* margin-top: 10px; */
-
+    
 }
 
 .columns {
     display: flex;
     align-items: center;
     justify-content: center;
-
     /* opacity: .9;   */
 }
 
-.card{
+.card {
     margin: 5px;
+    height:100%;
+    /* max-width: 100%; */
+
 }
 
 .col-menu {
@@ -46,4 +48,21 @@ h2 {
 .title, .subtitle {
     display: flex;
     justify-content: center;
+}
+
+.card-image,
+.card-image .image img, .media-content{
+  height: 200px;
+
+}
+
+.fa-shopping-basket {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.media-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
