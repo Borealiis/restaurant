@@ -1,3 +1,4 @@
+
 const openClose = () => {
     const now = new Date()
     const day = now.getDay()
@@ -9,7 +10,7 @@ const openClose = () => {
     } 
     else {
         return false
-    }
+}
 }
 const opening = document.querySelector('.opening')
 if (openClose()) {
@@ -17,3 +18,6 @@ if (openClose()) {
 } else {
     opening.textContent = 'closed'
 }
+
+
+
