@@ -5,236 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
-    <div class="container">
-        <div class="columns is-vcentered">
-            <div class="column is-3">
-
-                <aside class="menu">
-                    <p class="menu-label">Menu</p>
-                    <ul class="menu-list">
-                        <li><a href="#lunch">Lunch Menu</a></li>
-                        <li><a href="#popular">Most Popular</a></li>
-                        <li><a href="#entrees">Entrées</a></li>
-                        <li><a href="#main">Main Dishes</a></li>
-                        <li><a href="#drinks">Drinks</a></li>
-                        <li><a href="#snacks">Snacks</a></li>
-                    </ul>
-                </aside>
+    <main class="hero is-fullheight">
+        <nav class="navbar is-flex is-justify-content-space-around mt-5">
+            <div class="iconesMenu">
+                <span class="icon is-medium has-text-light mr-2">
+                    <i class="fas fa-home fa-2x"></i>
+                </span>
+                <a class="has-text-light is-size-3" href="#">HOME</a>
             </div>
-            <div class="column is-8">
-                <h2 id="lunch">Lunch Menu</h2>
-                <h3>Available from 3–10pm | Call (587) 525-8589 to place your takeout order. Not all menu items are
-                    available for takeout.
-
-                </h3>
-                <div class="card">
-
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">John Smith</p>
-                                <p class="subtitle is-6">@johnsmith</p>
-                                <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image ">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">John Smith</p>
-                                <p class="subtitle is-6">@johnsmith</p>
-                                <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <h2 id="popular">Most Popular</h2>
-
-                <div class="card">
-
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image ">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">John Smith</p>
-                                <p class="subtitle is-6">@johnsmith</p>
-                                <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image ">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">John Smith</p>
-                                <p class="subtitle is-6">@johnsmith</p>
-                                <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <h2 id="entrees">Entrées</h2>
-
-                <div class="card">
-
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image ">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">John Smith</p>
-                                <p class="subtitle is-6">@johnsmith</p>
-                                <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <h2 id="main">Main Dishes</h2>
-
-                <div class="card">
-
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image ">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">John Smith</p>
-                                <p class="subtitle is-6">@johnsmith</p>
-                                <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image ">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">John Smith</p>
-                                <p class="subtitle is-6">@johnsmith</p>
-                                <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image ">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">John Smith</p>
-                                <p class="subtitle is-6">@johnsmith</p>
-                                <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <h2 id="drinks">Drinks</h2>
-
-                <div class="card">
-
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image ">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">John Smith</p>
-                                <p class="subtitle is-6">@johnsmith</p>
-                                <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <h2 id="snacks">Snacks</h2>
-
-                <div class="card">
-
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-left">
-                                <figure class="image ">
-                                    <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                                </figure>
-                            </div>
-                            <div class="media-content">
-                                <p class="title is-4">John Smith</p>
-                                <p class="subtitle is-6">@johnsmith</p>
-                                <p class="subtitle is-12"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    Phasellus nec iaculis mauris.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
+            <div class="iconesMenu">
+                <span class="icon is-medium has-text-light mr-2">
+                    <i class="fas fa-book-open fa-2x"></i>
+                </span>
+                <a class="has-text-light is-size-3" href="#">MENU</a>
             </div>
-        </div>
-
-    </div>
-
+            <div class="iconesMenu">
+                <span class="icon is-medium has-text-light mr-2">
+                    <i class="far fa-clock fa-2x"></i>
+                </span>
+                <a class="has-text-light is-size-3" href="horaires.html">HORAIRES</a>
+            </div>
+        </nav>
+        <!-- <section class="section"> -->
+        <section class="container">
+            <div class="columns is-centered">
+                <div class="column is-two-thirds">
+                    <h1 class="title is-1 has-text-weight-bold has-text-light has-text-centered mt-6 mb-6">OMAGI</h1>
+                    <h2 class="has-text-weight-bold subtitle is-4 has-text-light has-text-centered mt-6 mb-6">OPEN FOR
+                        DINE-IN & TAKEOUT</h2>
+                    <p class="is-size-4 has-text-light has-text-centered mt-6">Omagi is dedicated to creative sharing
+                        plates combined with superb Asian hostesses who will make your experience unforgettable.
+                    </p>
+                    <table>
+                        <thead class="borderColor">
+                            <th class="has-text-light"> TODAY'S HOURS
+                            </th>
+                        </thead>
+                        <tfoot class="borderColor">
+                            <td class="has-text-light opening">closed
+                            </td>
+                        </tfoot>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <!-- </section> -->
+    </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
