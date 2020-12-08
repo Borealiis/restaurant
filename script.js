@@ -1,3 +1,4 @@
+
 const openClose = () => {
     const now = new Date()
     const day = now.getDay()
