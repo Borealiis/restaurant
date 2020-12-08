@@ -28,11 +28,12 @@ main {
 
 
 td, th {
+    font-family: 'Song Myung', serif;
     padding: 10px 20px !important;
 }
 
 
 .content p {
-    font-family: 'Single Day', cursive;
+    font-family: 'Oregano', cursive;
     color: rgb(14, 13, 13);
 }
