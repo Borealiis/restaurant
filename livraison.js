@@ -108,4 +108,4 @@ const change = () => {
     setTimeout(change, 1000)
 }
 
-change()
+opening.addEventListener('click', change)

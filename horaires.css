@@ -1,7 +1,13 @@
 main {
-    background-image: url('https://cdn.pixabay.com/photo/2018/03/13/09/05/ramen-3221981_960_720.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/22/19/33/asian-cuisine-1850233_960_720.jpg');
     background-size: cover;
-    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.transparent {
+
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar a {
