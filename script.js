@@ -10,7 +10,7 @@ const openClose = () => {
     } 
     else {
         return false
-    }
+}
 }
 const opening = document.querySelector('.opening')
 if (openClose()) {
@@ -18,3 +18,6 @@ if (openClose()) {
 } else {
     opening.textContent = 'closed'
 }
+
+
+
