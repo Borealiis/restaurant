@@ -3,6 +3,11 @@ main {
     background-size: cover;
 }
 
+.transparent {
+    height: 100vh;;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
 h1 {
     font-family: 'Single Day', cursive;
     letter-spacing: 0.8em;
@@ -14,7 +19,7 @@ h2 {
 }
 
 p {
-    font-family: 'Single Day', cursive;
+    font-family: 'Song Myung', serif;
     margin-bottom: 50px;
 }
 
@@ -23,9 +28,12 @@ p {
     border: 1px solid /* #AB3717 */white;
     justify-content: center;   
 }
+
 table {
     margin: 100px auto 0 auto;
+    font-family: 'Song Myung', serif;
 }
+
 td{
     font-size: x-large;  
 }
@@ -34,15 +42,13 @@ th, td {
 }
 
 .navbar a {
-    font-family: 'Single Day', cursive;
+    font-family: 'Song Myung', serif;
 }
 
 .iconesMenu {
     display: flex;
     align-items: center;
 }
-
-
 
 @media screen and (max-width: 450px) {
     h1 {

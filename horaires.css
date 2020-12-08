@@ -6,12 +6,12 @@ main {
 }
 
 .transparent {
-
+    height: 100vh;;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
 .navbar a {
-    font-family: 'Single Day', cursive;
+    font-family: 'Song Myung', serif;
 }
 
 .iconesMenu {
@@ -26,9 +26,6 @@ main {
     align-items: center;
 }
 
-table {
-    opacity: 70%;
-}
 
 td, th {
     padding: 10px 20px !important;
