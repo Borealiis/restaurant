@@ -21,32 +21,32 @@ if (openClose()) {
 const livraison = () => {
     let now = new Date()
     // let timeToNextOpening // CALCUL MAGIQUE PRISE DE TÊTE
-    let openDelay = Math.floor(Math.random() * 10)
-    let closeDelay = Math.floor(Math.random() * (50 - 31) + 30)
+    let openDelay = (Math.floor(Math.random() * (40 - 31) + 30)) * 60 * 1000 // 30mn + 0 à 10mn = 30 à 40mn
+    let closeDelay = (Math.floor(Math.random() * (50 - 31) + 30)) * 60 * 1000 // 30 à 50mn
     let deliveryTime
     let openingHours
     let delayToOpening
     if (openClose()) {
-        deliveryTime = now.getTime() + ((openDelay + 30) * 60 * 1000)
+        deliveryTime = now.getTime() + openDelay
     }
     else {
-        if ((now.getHours() >= 14 && now.getHours() < 18) && now.getDay() !== 0 && now.getDay() !== 1) {
+        if ((now.getHours() >= 14 && now.getHours() < 18) && now.getDay() !== 0 && now.getDay() !== 1) { // Après-midi, lundi et dimanche exclus
             console.log('Apres-Midi')
             openingHours = now
             openingHours.setHours(18)
             openingHours.setMinutes(00)
             openingHours.setSeconds(00)
             delayToOpening = openingHours.getTime() - now.getTime()
-            deliveryTime = now.getTime() + delayToOpening + (closeDelay * 60 * 1000)
-        } else if (now.getHours() < 11 && now.getDay() !== 1) {
+            deliveryTime = now.getTime() + delayToOpening + closeDelay
+        } else if ((now.getHours() < 11 && now.getDay() !== 1) && now.getDay() !== 1) { // matin lundi exclu
             console.log('matin')
             openingHours = now
             openingHours.setHours(11)
             openingHours.setMinutes(00)
             openingHours.setSeconds(00)
             delayToOpening = openingHours.getTime() - now.getTime()
-            deliveryTime = now.getTime() + delayToOpening + (closeDelay * 60 * 1000)
-        } else if ((now.getHours() === 22 && now.getMinutes() >= 30) || now.getHours() > 22 || now.getDay() === 1) {
+            deliveryTime = now.getTime() + delayToOpening + closeDelay
+        } else if (((now.getHours() === 22 && now.getMinutes() >= 30) || now.getHours() > 22 || now.getDay() === 1) && now.getDay !== 0) { // soir (dimanche exclu) ou lundi
             console.log('soir ou lundi')
             openingHours = now
             let day = openingHours.getDate()
@@ -56,9 +56,9 @@ const livraison = () => {
             openingHours.setMinutes(00)
             openingHours.setSeconds(00)
             delayToOpening = openingHours.getTime() - now.getTime()
-            deliveryTime = now.getTime() + delayToOpening + (closeDelay * 60 * 1000)
+            deliveryTime = now.getTime() + delayToOpening + closeDelay
             console.log(deliveryTime / (1000 * 60 * 60))
-        } else if (now.getDay() === 0 && now.getHours() >= 14) {
+        } else if (now.getDay() === 0 && now.getHours() >= 14) { // dimanche après-midi
             console.log('dimanche apres midi')
             openingHours = now
             let day = openingHours.getDate()
@@ -68,7 +68,7 @@ const livraison = () => {
             openingHours.setMinutes(00)
             openingHours.setSeconds(00)
             delayToOpening = openingHours.getTime() - now.getTime()
-            deliveryTime = now.getTime() + delayToOpening + (closeDelay * 60 * 1000)
+            deliveryTime = now.getTime() + delayToOpening + closeDelay
         }
     }
     return deliveryTime
