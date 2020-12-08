@@ -42,7 +42,7 @@ const livraison = () => {
             console.log('matin')
             openingHours = now
             openingHours.setHours(11)
-            openingHours.setMinutes(00)
+            openingHours.setMinutes(30)
             openingHours.setSeconds(00)
             delayToOpening = openingHours.getTime() - now.getTime()
             deliveryTime = now.getTime() + delayToOpening + closeDelay
@@ -53,7 +53,7 @@ const livraison = () => {
             console.log(day)
             openingHours.setDate(day + 1)
             openingHours.setHours(11)
-            openingHours.setMinutes(00)
+            openingHours.setMinutes(30)
             openingHours.setSeconds(00)
             delayToOpening = openingHours.getTime() - now.getTime()
             deliveryTime = now.getTime() + delayToOpening + closeDelay
@@ -65,7 +65,7 @@ const livraison = () => {
             openingHours.setDate(day + 2)
             console.log(openingHours)
             openingHours.setHours(11)
-            openingHours.setMinutes(00)
+            openingHours.setMinutes(30)
             openingHours.setSeconds(00)
             delayToOpening = openingHours.getTime() - now.getTime()
             deliveryTime = now.getTime() + delayToOpening + closeDelay
