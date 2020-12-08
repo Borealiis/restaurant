@@ -1,0 +1,35 @@
+main {
+    background-image: url('https://cdn.pixabay.com/photo/2018/03/13/09/05/ramen-3221981_960_720.jpg');
+    background-size: cover;
+    background-position: 50% 60%;
+}
+
+.navbar a {
+    font-family: 'Single Day', cursive;
+}
+
+.iconesMenu {
+    display: flex;
+    align-items: center;
+}
+
+.flexCenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    opacity: 70%;
+}
+
+td, th {
+    padding: 10px 20px !important;
+}
+
+
+.content p {
+    font-family: 'Single Day', cursive;
+    color: rgb(14, 13, 13);
+}
