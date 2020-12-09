@@ -1,4 +1,5 @@
 main {
+    height: 100%;
     background-image: url('https://cdn.pixabay.com/photo/2016/11/22/19/33/asian-cuisine-1850233_960_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -6,36 +7,65 @@ main {
 }
 
 .transparent {
-
-    background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.navbar a {
-    font-family: 'Single Day', cursive;
+nav {
+  padding-top: 15px;
+}
+
+nav a {
+  font-family: "Song Myung", serif;
 }
 
 .iconesMenu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .flexCenter {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 table {
-    opacity: 70%;
+  border-left: 1px solid white;
 }
 
-td, th {
-    padding: 10px 20px !important;
+td,
+th {
+  font-family: "Song Myung", serif;
+  padding: 10px 20px !important;
 }
 
+tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .content p {
-    font-family: 'Single Day', cursive;
-    color: rgb(14, 13, 13);
+  font-family: "Oregano", cursive;
+  color: rgb(14, 13, 13);
+  margin-top: 20px;
 }
+
+@media screen and (max-width: 450px) {
+    main {
+        width: 100%;
+    }
+    .transparent {
+        height: 100%;
+        width: 100%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+

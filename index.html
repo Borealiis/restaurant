@@ -7,41 +7,45 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Single+Day&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Song+Myung&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oregano&display=swap" rel="stylesheet">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <main class="hero is-fullheight">
-        <nav class="navbar is-flex is-justify-content-space-around mt-5">
+        <div class="transparent">
+        <nav class="is-flex is-justify-content-space-around">
             <div class="iconesMenu">
                 <span class="icon is-medium has-text-light mr-2">
                     <i class="fas fa-home fa-2x"></i>
                 </span>
-                <a class="has-text-light is-size-3" href="#">HOME</a>
+                <a class="has-text-light is-size-3-desktop is-size-5-mobile is-size-4-tablet" href="#">HOME</a>
             </div>
             <div class="iconesMenu">
                 <span class="icon is-medium has-text-light mr-2">
                     <i class="fas fa-book-open fa-2x"></i>
                 </span>
-                <a class="has-text-light is-size-3" href="#">MENU</a>
+                <a class="has-text-light is-size-3-desktop is-size-5-mobile is-size-4-tablet" href="menu.html">MENU</a>
             </div>
             <div class="iconesMenu">
                 <span class="icon is-medium has-text-light mr-2">
                     <i class="far fa-clock fa-2x"></i>
                 </span>
-                <a class="has-text-light is-size-3" href="horaires.html">HORAIRES</a>
+                <a class="has-text-light is-size-3-desktop is-size-5-mobile is-size-4-tablet" href="horaires.html">OPENING HOURS</a>
             </div>
         </nav>
         <!-- <section class="section"> -->
         <section class="container">
-            <div class="columns is-centered">
-                <div class="column is-two-thirds">
-                    <h1 class="title is-1 has-text-weight-bold has-text-light has-text-centered mt-6 mb-6">OMAGI</h1>
-                    <h2 class="has-text-weight-bold subtitle is-4 has-text-light has-text-centered mt-6 mb-6">OPEN FOR
+
+            <div class="columns is-centered mr-0">
+                <div class="column is-two-thirds pb-0">
+                    <h1 class="title is-1 has-text-weight-bold has-text-light has-text-centered mt-6 mb-6 is-size-2-mobile">OMAGI</h1>
+                    <h2 class="has-text-weight-bold subtitle is-4 has-text-light has-text-centered mt-6 mb-6 is-size-4-mobile">OPEN FOR
+
                         DINE-IN & TAKEOUT</h2>
-                    <p class="is-size-4 has-text-light has-text-centered mt-6">Omagi is dedicated to creative sharing
+                    <p class="is-size-4 has-text-light is-italic has-text-centered mt-6">Omagi is dedicated to creative sharing
                         plates combined with superb Asian hostesses who will make your experience unforgettable.
                     </p>
                     <table>
@@ -56,9 +60,11 @@
                         <tbody>
                         </tbody>
                     </table>
+                    <p id="closeText" class="is-italic has-text-light has-text-centered mt-6 is-size-3"></p>
                 </div>
             </div>
         </section>
+        </div>
         <!-- </section> -->
     </main>
     <script src="script.js"></script>

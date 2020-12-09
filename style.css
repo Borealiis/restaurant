@@ -1,20 +1,27 @@
 main {
+    height: 100%;
     background-image: url('https://sortiesparisiennes.fr/wp-content/uploads/2017/09/culture-asiatique.jpg');
     background-size: cover;
+    height: 100%;
+}
+
+.transparent {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 h1 {
-    font-family: 'Single Day', cursive;
+    font-family: 'Oregano', cursive;
     letter-spacing: 0.8em;
 }
 
 h2 {
-    font-family: 'Single Day', cursive;
+    font-family: 'Oregano', cursive;
     letter-spacing: 0.5em;
 }
 
 p {
-    font-family: 'Single Day', cursive;
+    font-family: 'Song Myung', serif;
     margin-bottom: 50px;
 }
 
@@ -23,9 +30,12 @@ p {
     border: 1px solid /* #AB3717 */white;
     justify-content: center;   
 }
+
 table {
     margin: 100px auto 0 auto;
+    font-family: 'Song Myung', serif;
 }
+
 td{
     font-size: x-large;  
 }
@@ -33,8 +43,12 @@ th, td {
     padding: 5px 10px;
 }
 
-.navbar a {
-    font-family: 'Single Day', cursive;
+nav {
+    padding-top: 15px;
+}
+
+nav a {
+    font-family: 'Song Myung', serif;
 }
 
 .iconesMenu {
@@ -42,16 +56,30 @@ th, td {
     align-items: center;
 }
 
-
-
 @media screen and (max-width: 450px) {
+
+    main{
+        width: 100%;
+    }
+    .transparent{
+        height: 100%;
+        width: 100%;
+    }
+    
+
     h1 {
         letter-spacing: 0.4em;
     }
 
-    .navbar {
+    nav {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
+    h2{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
 }

@@ -1,7 +1,20 @@
 body{
     background-image: url(./art-asiatique-musee-de-san-francisco.jpg);
+    background-attachment: fixed;
+    background-size: 125vh;
     font-family: 'Oregano', cursive;
-font-size: larger;
+    font-size: larger;
+}
+
+.transparent {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    padding-top: 15px;
+}
+nav a {
+    font-family: 'Song Myung', serif;
 }
 
 .container {
@@ -10,7 +23,9 @@ font-size: larger;
 }
 
 .column {
+
     border: 1px solid black;
+
 }
 
 .columns {
@@ -70,17 +85,13 @@ h2 {
     justify-content: space-between;
 }
 
-/* .tag {
-    max-width: fit-content;
-} */
-
 .card-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-@media screen and (max-width: 1023px){
+@media screen and (min-width:450px) and (max-width: 1023px){
     
     .columns {
        max-width: 75%;
@@ -95,7 +106,13 @@ flex-direction: row;
         position: unset;
     
     }
+}
 
-
+@media screen and (max-width: 450px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 }
