@@ -58,7 +58,8 @@ function livraison() {
 }
 // j'enferme la valeur de deliveryTime dans x car j'ai besoin qu'elle reste fixe
 let x = livraison()
-
+const opening = document.querySelector('.opening')
+const div = document.querySelector('#closeText')
 function change() {
     const now = new Date()
     const there = x
@@ -93,11 +94,10 @@ function change() {
         console.log(seconds)
         div.textContent = 'Next opening : ' + minutes + ':' + seconds
     }
-
 }
 
-const opening = document.querySelector('.opening')
-const div = document.querySelector('#closeText')
+// const opening = document.querySelector('.opening')
+// const div = document.querySelector('#closeText')
 
 function textClose() {
     if (openClose()) {
