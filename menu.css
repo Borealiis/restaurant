@@ -1,39 +1,43 @@
+
 body{
     background-image: url(./art-asiatique-musee-de-san-francisco.jpg);
     background-attachment: fixed;
     background-size: 125vh;
     font-family: 'Oregano', cursive;
     font-size: larger;
+    margin-bottom: 0;
+    min-height: 100vh;
 }
 
 .transparent {
-    height: 100%;
     background-color: rgba(0, 0, 0, 0.1);
 }
 
 nav {
     padding-top: 15px;
 }
-
 nav a {
     font-family: 'Song Myung', serif;
 }
 
-.column {
-    /* border: 1px solid black; */
-    /* margin-top: 10px; */
-    
+.container {
+    display: flex;
+    justify-content: center;
 }
+
 
 .columns {
     display: flex;
     align-items: center;
     justify-content: center;
     /* opacity: .9;   */
+    max-width: 50%;
+    margin-top: 0vh;
+  
+   
 }
 
 .card {
-    margin: 5px;
     height:100%;
     /* max-width: 100%; */
 
@@ -56,7 +60,7 @@ h2 {
 .section-title {
     background-color: white;
     /* opacity: .7;   */
-    padding: 10px;
+    padding: 5px;
 
 }
 
@@ -82,10 +86,35 @@ h2 {
     justify-content: space-between;
 }
 
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (min-width:450px) and (max-width: 1023px){
+    
+    .columns {
+       max-width: 75%;
+    }
+
+    .col-menu {
+       display: flex;
+flex-direction: row;
+        text-align: center;
+        background-color: white;
+        font-size: larger;
+        position: unset;
+    
+    }
+}
+
 @media screen and (max-width: 450px) {
     nav {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
 }
+ 

@@ -6,10 +6,10 @@ body.appendChild(container);
 
 const mainColumnLayout = document.createElement("div");
 mainColumnLayout.className = "columns";
-container.appendChild(mainColumnLayout);
+container.appendChild(mainColumnLayout); 
 
 /*Menu navigation*/
-const menuColumn = document.createElement("div");
+ const menuColumn = document.createElement("div");
 menuColumn.className = "column is-1.5 col-menu is-narrow";
 mainColumnLayout.appendChild(menuColumn);
 
@@ -46,11 +46,11 @@ for (let element of menuNav) {
 
 const foodContainer = document.createElement('div');
 foodContainer.className = "container";
-body.appendChild(foodContainer);
+body.appendChild(foodContainer); 
 
 
 const foodRowCols = document.createElement('div');
-foodRowCols.className = 'columns is-multiline is-centered';
+foodRowCols.className = 'columns is-multiline is-centered mb-0';
 foodContainer.appendChild(foodRowCols);
 
 
@@ -124,3 +124,4 @@ for (let elem of collection) {
     foodAnchor.appendChild(foodBasket);
 
 }
+
