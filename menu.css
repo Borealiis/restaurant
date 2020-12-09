@@ -4,10 +4,13 @@ body{
 font-size: larger;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 .column {
     border: 1px solid black;
-    /* margin-top: 10px; */
-    
 }
 
 .columns {
@@ -15,10 +18,10 @@ font-size: larger;
     align-items: center;
     justify-content: center;
     /* opacity: .9;   */
+    max-width: 50%;
 }
 
 .card {
-    margin: 5px;
     height:100%;
     /* max-width: 100%; */
 
@@ -41,7 +44,7 @@ h2 {
 .section-title {
     background-color: white;
     /* opacity: .7;   */
-    padding: 10px;
+    padding: 5px;
 
 }
 
@@ -65,4 +68,34 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+/* .tag {
+    max-width: fit-content;
+} */
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1023px){
+    
+    .columns {
+       max-width: 75%;
+    }
+
+    .col-menu {
+       display: flex;
+flex-direction: row;
+        text-align: center;
+        background-color: white;
+        font-size: larger;
+        position: unset;
+    
+    }
+
+
+
 }
