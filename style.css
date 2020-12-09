@@ -4,7 +4,7 @@ main {
 }
 
 .transparent {
-    height: 100vh;;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -41,7 +41,11 @@ th, td {
     padding: 5px 10px;
 }
 
-.navbar a {
+nav {
+    padding-top: 15px;
+}
+
+nav a {
     font-family: 'Song Myung', serif;
 }
 
