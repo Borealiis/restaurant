@@ -1,6 +1,7 @@
 main {
     background-image: url('https://sortiesparisiennes.fr/wp-content/uploads/2017/09/culture-asiatique.jpg');
     background-size: cover;
+    height: 100%;
 }
 
 .transparent {
@@ -55,6 +56,14 @@ nav a {
 }
 
 @media screen and (max-width: 450px) {
+    main{
+        width: 100%;
+    }
+    .transparent{
+        height: 100%;
+        width: 100%;
+    }
+    
     h1 {
         letter-spacing: 0.4em;
     }
@@ -64,4 +73,12 @@ nav a {
         flex-direction: column;
         align-items: center;
     }
+    .transparent {
+        height: 100%;
+    }
+    h2{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
 }
