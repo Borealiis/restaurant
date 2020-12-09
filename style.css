@@ -59,7 +59,7 @@ nav a {
         letter-spacing: 0.4em;
     }
 
-    .navbar {
+    nav {
         display: flex;
         flex-direction: column;
         align-items: center;
