@@ -13,19 +13,15 @@ body{
 nav {
     padding-top: 15px;
 }
+
 nav a {
     font-family: 'Song Myung', serif;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-}
-
 .column {
-
-    border: 1px solid black;
-
+    /* border: 1px solid black; */
+    /* margin-top: 10px; */
+    
 }
 
 .columns {
@@ -33,10 +29,10 @@ nav a {
     align-items: center;
     justify-content: center;
     /* opacity: .9;   */
-    max-width: 50%;
 }
 
 .card {
+    margin: 5px;
     height:100%;
     /* max-width: 100%; */
 
@@ -59,7 +55,7 @@ h2 {
 .section-title {
     background-color: white;
     /* opacity: .7;   */
-    padding: 5px;
+    padding: 10px;
 
 }
 
@@ -85,34 +81,10 @@ h2 {
     justify-content: space-between;
 }
 
-.card-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-@media screen and (min-width:450px) and (max-width: 1023px){
-    
-    .columns {
-       max-width: 75%;
-    }
-
-    .col-menu {
-       display: flex;
-flex-direction: row;
-        text-align: center;
-        background-color: white;
-        font-size: larger;
-        position: unset;
-    
-    }
-}
-
 @media screen and (max-width: 450px) {
     nav {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-
 }
