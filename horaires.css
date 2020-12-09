@@ -1,4 +1,5 @@
 main {
+    height: 100%;
     background-image: url('https://cdn.pixabay.com/photo/2016/11/22/19/33/asian-cuisine-1850233_960_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,6 +29,7 @@ nav a {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 table {
@@ -46,11 +48,19 @@ tr {
 }
 
 .content p {
+    margin-top: 20px;
     font-family: 'Oregano', cursive;
     color: rgb(14, 13, 13);
 }
 
 @media screen and (max-width: 450px) {
+    main {
+        width: 100%;
+    }
+    .transparent {
+        height: 100%;
+        width: 100%;
+    }
     nav {
         display: flex;
         flex-direction: column;
