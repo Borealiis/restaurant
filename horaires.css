@@ -7,50 +7,51 @@ main {
 }
 
 .transparent {
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 nav {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 nav a {
-    font-family: 'Song Myung', serif;
+  font-family: "Song Myung", serif;
 }
 
 .iconesMenu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .flexCenter {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 table {
-    border-left: 1px solid white;
+  border-left: 1px solid white;
 }
 
-td, th {
-    font-family: 'Song Myung', serif;
-    padding: 10px 20px !important;
+td,
+th {
+  font-family: "Song Myung", serif;
+  padding: 10px 20px !important;
 }
 
 tr {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content p {
-    margin-top: 20px;
-    font-family: 'Oregano', cursive;
-    color: rgb(14, 13, 13);
+  font-family: "Oregano", cursive;
+  color: rgb(14, 13, 13);
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 450px) {
@@ -67,3 +68,4 @@ tr {
         align-items: center;
     }
 }
+
