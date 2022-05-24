@@ -10,7 +10,7 @@ ___________
 
 Wecome ***Kelian*** and/or ***Emily*** to my masterpiece! :bowtie:
 
-Please find the **restaurant project link** [here](https://bluerory.github.io/the-quizz/).
+Please find the **restaurant project link** [here](https://bluerory.github.io/restaurant/).
 
 
 ### Reason for this project:
